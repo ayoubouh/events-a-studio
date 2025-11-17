@@ -86,3 +86,6 @@
 
 ---
 *Last Updated: Nov 16, 2025*
+
+## Recent Changes
+- [x] Replace "Better call Ayoub" with "Join Us" throughout the website

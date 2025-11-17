@@ -17,7 +17,7 @@ export const translations = {
   // Brand & Hero
   brand: {
     name: { en: 'Events, A studio', fr: 'Events, A studio', ar: 'إيڤنتس، إيه ستوديو' },
-    tagline: { en: 'Better call Ayoub', fr: 'Mieux vaut appeler Ayoub', ar: 'اتصل بأيوب' },
+    tagline: { en: 'Join Us', fr: 'Rejoignez-Nous', ar: 'انضم إلينا' },
     slogan: { en: 'Your Marrakech moment, perfectly crafted', fr: 'Votre moment à Marrakech, parfaitement orchestré', ar: 'لحظتك في مراكش، مصممة بإتقان' },
     heroHeadline: { en: 'Expert Event Management & Creative Direction in Marrakech', fr: 'Gestion d\'Événements Experte & Direction Créative à Marrakech', ar: 'إدارة فعاليات احترافية وتوجيه إبداعي في مراكش' },
     heroSubheadline: { en: 'We blend PMP precision with studio creativity to deliver unforgettable experiences', fr: 'Nous fusionnons la précision PMP avec la créativité d\'un studio pour des expériences inoubliables', ar: 'نمزج دقة إدارة المشاريع (PMP) بالإبداع الفني لتقديم تجارب لا تُنسى' },
@@ -91,8 +91,8 @@ export const translations = {
 
   // About Section
   about: {
-    title: { en: 'About Ayoub & Events, A studio', fr: 'À Propos d\'Ayoub & Events, A studio', ar: 'عن أيوب و Events, A studio' },
-    headline: { en: 'Better call Ayoub', fr: 'Mieux vaut appeler Ayoub', ar: 'اتصل بأيوب' },
+    title: { en: 'About Events, A studio', fr: 'À Propos d\'Events, A studio', ar: 'عن Events, A studio' },
+    headline: { en: 'Join Us', fr: 'Rejoignez-Nous', ar: 'انضم إلينا' },
     bio: {
       en: 'With over a decade of experience in event management, creative direction, and project execution, Ayoub brings a unique blend of business acumen and artistic vision to every project. Based in Marrakech, we specialize in creating unforgettable experiences that honor tradition while embracing modern luxury.',
       fr: 'Avec plus d\'une décennie d\'expérience en gestion d\'événements, direction créative et exécution de projets, Ayoub apporte un mélange unique de perspicacité commerciale et de vision artistique à chaque projet. Basé à Marrakech, nous nous spécialisons dans la création d\'expériences inoubliables qui honorent la tradition tout en embrassant le luxe moderne.',
