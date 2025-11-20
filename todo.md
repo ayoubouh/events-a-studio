@@ -108,3 +108,9 @@
 - [x] Build private admin dashboard for conversations
 - [x] Test AI chatbot functionality
 - [x] Test dark/light mode across all pages
+
+## Bug Fixes & Improvements
+- [x] Fix dark mode styling across all pages (improve contrast and visibility)
+- [x] Improve AI chatbot message visibility (clearer message display)
+- [x] Add multilingual support to AI chatbot (respond in EN, FR, AR based on user language)
+- [x] Enhance chatbot UI for better readability

@@ -147,6 +147,13 @@ export const translations = {
     french: { en: 'Français', fr: 'Français', ar: 'الفرنسية' },
     arabic: { en: 'العربية', fr: 'Arabe', ar: 'العربية' },
   },
+
+  // Chat
+  chat: {
+    placeholder: { en: 'Ask about our services, pricing, or availability...', fr: 'Posez des questions sur nos services, nos tarifs ou notre disponibilité...', ar: 'اسأل عن خدماتنا أو الأسعار أو التوفر...' },
+    send: { en: 'Send', fr: 'Envoyer', ar: 'إرسال' },
+    language: { en: 'Language', fr: 'Langue', ar: 'اللغة' },
+  },
 };
 
 // Helper function to get translation
