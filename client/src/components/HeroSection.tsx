@@ -27,9 +27,9 @@ export const HeroSection: React.FC = () => {
 
       <div className="container relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          {/* Tagline */}
-          <p className="text-accent font-semibold text-lg mb-4 tracking-wide">
-            {t('brand.tagline', language)}
+          {/* Slogan */}
+          <p className="text-accent font-semibold text-xl md:text-2xl mb-6 tracking-wide italic">
+            {t('brand.slogan', language)}
           </p>
 
           {/* Main Headline */}

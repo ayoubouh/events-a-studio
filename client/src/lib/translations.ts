@@ -18,7 +18,7 @@ export const translations = {
   brand: {
     name: { en: 'Events, A studio', fr: 'Events, A studio', ar: 'إيڤنتس، إيه ستوديو' },
     tagline: { en: 'Join Us', fr: 'Rejoignez-Nous', ar: 'انضم إلينا' },
-    slogan: { en: 'Your Marrakech moment, perfectly crafted', fr: 'Votre moment à Marrakech, parfaitement orchestré', ar: 'لحظتك في مراكش، مصممة بإتقان' },
+    slogan: { en: 'Your moment, our creation', fr: 'Votre moment notre création', ar: 'لحظتك، إبداعنا' },
     heroHeadline: { en: 'Expert Event Management & Creative Direction in Marrakech', fr: 'Gestion d\'Événements Experte & Direction Créative à Marrakech', ar: 'إدارة فعاليات احترافية وتوجيه إبداعي في مراكش' },
     heroSubheadline: { en: 'We blend PMP precision with studio creativity to deliver unforgettable experiences', fr: 'Nous fusionnons la précision PMP avec la créativité d\'un studio pour des expériences inoubliables', ar: 'نمزج دقة إدارة المشاريع (PMP) بالإبداع الفني لتقديم تجارب لا تُنسى' },
   },

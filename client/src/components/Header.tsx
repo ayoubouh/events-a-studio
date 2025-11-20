@@ -38,7 +38,7 @@ export const Header: React.FC = () => {
           <img src={APP_LOGO} alt={APP_TITLE} className="h-12 w-12 object-contain" />
           <div className="hidden sm:block">
             <h1 className="text-lg font-bold text-primary">{t('brand.name', language)}</h1>
-            <p className="text-xs text-muted-foreground">{t('brand.tagline', language)}</p>
+            <p className="text-xs text-accent font-semibold italic">{t('brand.slogan', language)}</p>
           </div>
         </div>
 
