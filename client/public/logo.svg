@@ -1,0 +1,107 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" width="600" height="450">
+  <defs>
+    <!-- Orange/Red gradient for main elements -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3D3D;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Darker gradient for accents -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E63946;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Filter for subtle glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Decorative stars on left -->
+  <g id="stars">
+    <!-- Top-left star (4-pointed) -->
+    <g transform="translate(100, 130)">
+      <path d="M 0,-12 L 3,-3 L 12,-3 L 5,3 L 8,12 L 0,6 L -8,12 L -5,3 L -12,-3 L -3,-3 Z" fill="url(#mainGradient)" opacity="0.85"/>
+    </g>
+    
+    <!-- Bottom-left star (smaller) -->
+    <g transform="translate(85, 280)">
+      <path d="M 0,-8 L 2,-2 L 8,-2 L 3,2 L 5,8 L 0,4 L -5,8 L -3,2 L -8,-2 L -2,-2 Z" fill="url(#mainGradient)" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Main text container -->
+  <g id="text-group">
+    <!-- "studio" text -->
+    <text x="180" y="155" font-family="'Arial', 'Helvetica', sans-serif" font-size="85" font-weight="900" fill="url(#mainGradient)" letter-spacing="3" filter="url(#glow)">
+      studio
+    </text>
+    
+    <!-- "Agency" text -->
+    <text x="180" y="245" font-family="'Arial', 'Helvetica', sans-serif" font-size="85" font-weight="900" fill="url(#accentGradient)" letter-spacing="3" filter="url(#glow)">
+      Agency
+    </text>
+  </g>
+
+  <!-- Decorative dash between text -->
+  <line x1="155" y1="175" x2="175" y2="175" stroke="url(#mainGradient)" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Bottom rounded pill with tagline -->
+  <rect x="155" y="275" width="320" height="60" rx="30" ry="30" fill="url(#mainGradient)" opacity="0.95" filter="url(#glow)"/>
+  
+  <!-- Tagline text inside pill -->
+  <text x="315" y="315" font-family="'Arial', 'Helvetica', sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2">
+    EVENTS, A STUDIO
+  </text>
+
+  <!-- Champagne glass on the right -->
+  <g id="champagne-glass" transform="translate(420, 140)">
+    <!-- Glass bowl (trapezoid shape) -->
+    <path d="M -15 0 L 15 0 L 20 35 Q 20 45 10 45 L -10 45 Q -20 45 -20 35 Z" 
+          fill="none" stroke="url(#mainGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Stem of glass -->
+    <rect x="-3" y="45" width="6" height="25" fill="none" stroke="url(#mainGradient)" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Base of glass -->
+    <ellipse cx="0" cy="72" rx="22" ry="8" fill="none" stroke="url(#mainGradient)" stroke-width="2.5"/>
+    
+    <!-- Liquid in glass -->
+    <path d="M -12 15 Q -12 25 -8 35 Q 0 40 8 35 Q 12 25 12 15" 
+          fill="url(#mainGradient)" opacity="0.3"/>
+    
+    <!-- Bubbles -->
+    <circle cx="-8" cy="20" r="2.5" fill="url(#mainGradient)" opacity="0.6"/>
+    <circle cx="5" cy="28" r="2" fill="url(#mainGradient)" opacity="0.5"/>
+    <circle cx="-2" cy="35" r="1.5" fill="url(#mainGradient)" opacity="0.4"/>
+  </g>
+
+  <!-- Hand holding glass -->
+  <g id="hand" transform="translate(380, 180)">
+    <!-- Wrist/arm -->
+    <path d="M 0 0 Q 5 -15 15 -30" fill="none" stroke="url(#mainGradient)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Palm -->
+    <ellipse cx="5" cy="10" rx="14" ry="18" fill="url(#mainGradient)" opacity="0.75"/>
+    
+    <!-- Thumb -->
+    <path d="M -5 8 Q -12 5 -15 -5" fill="none" stroke="url(#mainGradient)" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Index finger -->
+    <path d="M 0 25 Q -2 35 -3 45" fill="none" stroke="url(#mainGradient)" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Middle finger -->
+    <path d="M 8 28 Q 8 40 8 50" fill="none" stroke="url(#mainGradient)" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Ring finger -->
+    <path d="M 15 25 Q 18 38 20 48" fill="none" stroke="url(#mainGradient)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Subtle background frame for depth -->
+  <rect x="140" y="100" width="360" height="310" rx="25" ry="25" fill="none" stroke="url(#mainGradient)" stroke-width="1.5" opacity="0.15"/>
+</svg>
