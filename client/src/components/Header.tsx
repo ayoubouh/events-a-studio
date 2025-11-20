@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+    <header className="sticky top-0 z-50 bg-background border-b border-border shadow-sm dark:shadow-lg dark:border-border/50">
       <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <div className="flex items-center gap-3">

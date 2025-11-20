@@ -114,3 +114,6 @@
 - [x] Improve AI chatbot message visibility (clearer message display)
 - [x] Add multilingual support to AI chatbot (respond in EN, FR, AR based on user language)
 - [x] Enhance chatbot UI for better readability
+
+## Critical Bug Fixes
+- [x] Fix header/navigation bar visibility in dark mode
