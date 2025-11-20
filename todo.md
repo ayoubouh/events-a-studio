@@ -89,3 +89,4 @@
 
 ## Recent Changes
 - [x] Replace "Better call Ayoub" with "Join Us" throughout the website
+- [x] Update contact information (Gmail, phone, LinkedIn, location)

@@ -19,18 +19,18 @@ export const Footer: React.FC = () => {
                 <Mail size={20} className="mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-sm font-medium">{t('contact.email', language)}</p>
-                  <a href="mailto:hello@eventsastudio.com" className="text-accent hover:underline">
-                    hello@eventsastudio.com
-                  </a>
+              <a href="mailto:studio.a.events27@gmail.com" className="text-accent hover:underline">
+                studio.a.events27@gmail.com
+              </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Phone size={20} className="mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-sm font-medium">{t('contact.phone', language)}</p>
-                  <a href="tel:+212612345678" className="text-accent hover:underline">
-                    +212 6 12 34 56 78
-                  </a>
+              <a href="tel:+212621695312" className="text-accent hover:underline">
+                +212 6 21 69 53 12
+              </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://linkedin.com/company/eventsastudio"
+                href="https://linkedin.com/in/ayoub-ouhaddou"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-accent text-accent-foreground rounded-lg hover:opacity-80 transition-opacity"

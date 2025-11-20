@@ -68,8 +68,8 @@ export const ContactSection: React.FC = () => {
               <Mail className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-primary mb-2">{t('contact.email', language)}</h3>
-                <a href="mailto:hello@eventsastudio.com" className="text-accent hover:underline">
-                  hello@eventsastudio.com
+                <a href="mailto:studio.a.events27@gmail.com" className="text-accent hover:underline">
+                  studio.a.events27@gmail.com
                 </a>
               </div>
             </div>
@@ -80,8 +80,8 @@ export const ContactSection: React.FC = () => {
               <Phone className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-primary mb-2">{t('contact.phone', language)}</h3>
-                <a href="tel:+212612345678" className="text-accent hover:underline">
-                  +212 6 12 34 56 78
+                <a href="tel:+212621695312" className="text-accent hover:underline">
+                  +212 6 21 69 53 12
                 </a>
               </div>
             </div>
