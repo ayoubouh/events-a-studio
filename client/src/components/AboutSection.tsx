@@ -31,14 +31,14 @@ export const AboutSection: React.FC = () => {
                 <Award className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-xl font-bold text-primary mb-2">
-                    {language === 'en' ? 'PMP Certified' : language === 'fr' ? 'Certifié PMP' : 'معتمد من PMP'}
+                    {language === 'en' ? 'Tourism Management Diploma' : language === 'fr' ? 'Diplôme en Gestion du Tourisme' : 'دبلوم إدارة السياحة'}
                   </h3>
                   <p className="text-foreground/70">
                     {language === 'en'
-                      ? 'Professional project management standards applied to every event'
+                      ? 'Specialized in Event Organization with expertise in Marrakech tourism market'
                       : language === 'fr'
-                      ? 'Normes de gestion de projet professionnelles appliquées à chaque événement'
-                      : 'معايير إدارة المشاريع المهنية المطبقة على كل حدث'}
+                      ? 'Spécialisé en Organisation d\'Événements avec expertise du marché touristique de Marrakech'
+                      : 'متخصص في تنظيم الفعاليات مع خبرة في سوق السياحة في مراكش'}
                   </p>
                 </div>
               </div>
@@ -50,17 +50,17 @@ export const AboutSection: React.FC = () => {
                 <div>
                   <h3 className="text-xl font-bold text-primary mb-2">
                     {language === 'en'
-                      ? '100+ Events Delivered'
+                      ? 'Weddings & Ceremonies'
                       : language === 'fr'
-                      ? '100+ Événements Livrés'
-                      : '100+ حدث تم تسليمه'}
+                      ? 'Mariages & Cérémonies'
+                      : 'الزفاف والحفلات'}
                   </h3>
                   <p className="text-foreground/70">
                     {language === 'en'
-                      ? 'From intimate ceremonies to grand celebrations across Marrakech'
+                      ? 'Expert in Moroccan weddings, engagements, and cultural ceremonies'
                       : language === 'fr'
-                      ? 'Des cérémonies intimes aux grandes célébrations à travers Marrakech'
-                      : 'من الحفلات الحميمة إلى الاحتفالات الكبرى في جميع أنحاء مراكش'}
+                      ? 'Expert en mariages marocains, fiançailles et cérémonies culturelles'
+                      : 'خبير في الزفاف المغربي والخطوبة والحفلات الثقافية'}
                   </p>
                 </div>
               </div>

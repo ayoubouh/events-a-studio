@@ -92,14 +92,14 @@ export const translations = {
   // About Section
   about: {
     title: { en: 'About Events, A studio', fr: 'À Propos d\'Events, A studio', ar: 'عن Events, A studio' },
-    headline: { en: 'Join Us', fr: 'Rejoignez-Nous', ar: 'انضم إلينا' },
+    headline: { en: 'Meet Ayoub Ouhaddou', fr: 'Rencontrez Ayoub Ouhaddou', ar: 'تعرف على أيوب أوحدو' },
     bio: {
       en: 'With over a decade of experience in event management, creative direction, and project execution, Ayoub brings a unique blend of business acumen and artistic vision to every project. Based in Marrakech, we specialize in creating unforgettable experiences that honor tradition while embracing modern luxury.',
       fr: 'Avec plus d\'une décennie d\'expérience en gestion d\'événements, direction créative et exécution de projets, Ayoub apporte un mélange unique de perspicacité commerciale et de vision artistique à chaque projet. Basé à Marrakech, nous nous spécialisons dans la création d\'expériences inoubliables qui honorent la tradition tout en embrassant le luxe moderne.',
       ar: 'مع أكثر من عقد من الخبرة في إدارة الفعاليات والتوجيه الإبداعي وتنفيذ المشاريع، يجلب أيوب مزيجاً فريداً من الحنكة التجارية والرؤية الفنية لكل مشروع. بناءً في مراكش، نتخصص في إنشاء تجارب لا تُنسى تحترم التقاليد بينما تحتضن الفخامة الحديثة.',
     },
     expertise: {
-      en: 'Expertise in Moroccan weddings, corporate events, creative direction, photography, and tourism experiences',
+      en: 'Mission: Votre Moment, Notre Creation. Specializing in Moroccan weddings, engagement ceremonies, corporate events, professional photography, and tourism experiences.',
       fr: 'Expertise dans les mariages marocains, les événements d\'entreprise, la direction créative, la photographie et les expériences touristiques',
       ar: 'الخبرة في حفلات الزفاف المغربية والفعاليات الشركاتية والتوجيه الإبداعي والتصوير الفوتوغرافي والتجارب السياحية',
     },

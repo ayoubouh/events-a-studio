@@ -123,3 +123,10 @@
 - [x] Integrate SVG logo into website
 - [x] Update APP_LOGO constant to reference new SVG
 - [x] Test logo display in light and dark modes
+
+## Ayoub Ouhaddou - Founder Information
+- [x] Update About section with Ayoub's professional credentials
+- [x] Add Ayoub's background (Tourism Management diploma, event organization experience)
+- [x] Update AI chatbot introduction with Ayoub's expertise and mission
+- [x] Add professional tagline "Votre Moment, Notre Création" to website
+- [x] Update mission statement in About section
