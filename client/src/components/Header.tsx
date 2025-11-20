@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { useLanguageContext } from '@/contexts/LanguageContext';
 import { t, Language } from '@/lib/translations';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, Moon, Sun } from 'lucide-react';
+import { useTheme } from '@/contexts/ThemeContext';
 import { APP_LOGO, APP_TITLE } from '@/const';
 
 export const Header: React.FC = () => {
   const { language, setLanguage } = useLanguageContext();
+  const { theme, toggleTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -71,6 +73,15 @@ export const Header: React.FC = () => {
               </button>
             ))}
           </div>
+
+          {/* Dark/Light Mode Toggle */}
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg hover:bg-muted transition-colors"
+            title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
 
           {/* Mobile Menu Toggle */}
           <button

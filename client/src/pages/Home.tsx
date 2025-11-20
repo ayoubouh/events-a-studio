@@ -6,6 +6,7 @@ import { WeddingsSection } from '@/components/WeddingsSection';
 import { ProcessSection } from '@/components/ProcessSection';
 import { AboutSection } from '@/components/AboutSection';
 import { ContactSection } from '@/components/ContactSection';
+import { EventsAIChatBot } from '@/components/EventsAIChatBot';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
+      <EventsAIChatBot />
     </div>
   );
 }

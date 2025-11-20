@@ -90,3 +90,21 @@
 ## Recent Changes
 - [x] Replace "Better call Ayoub" with "Join Us" throughout the website
 - [x] Update contact information (Gmail, phone, LinkedIn, location)
+
+## New Features - AI & Theme
+- [ ] Upgrade project to web-db-user (database + backend)
+- [ ] Implement dark/light mode toggle
+- [ ] Build AI chatbot component
+- [ ] Create conversation storage in database
+- [ ] Build private admin dashboard for conversations
+- [ ] Test AI chatbot functionality
+- [ ] Test dark/light mode across all pages
+
+## Completed Features - AI & Theme
+- [x] Upgrade project to web-db-user (database + backend)
+- [x] Implement dark/light mode toggle
+- [x] Build AI chatbot component
+- [x] Create conversation storage in database
+- [x] Build private admin dashboard for conversations
+- [x] Test AI chatbot functionality
+- [x] Test dark/light mode across all pages
