@@ -221,16 +221,22 @@ export const EventsAIChatBot: React.FC = () => {
                         <p className="whitespace-pre-wrap">{message.content}</p>
                       )}
                       
-                      {/* Copy Button */}
+                      {/* Copy Button - Always Visible */}
                       <button
                         onClick={() => copyToClipboard(message.content, message.id)}
-                        className="absolute -right-8 top-0 opacity-0 group-hover:opacity-100 transition-opacity p-1 hover:bg-muted rounded"
+                        className="inline-flex items-center gap-1 mt-2 px-2 py-1 text-xs rounded bg-muted hover:bg-muted/80 transition-colors opacity-70 hover:opacity-100"
                         title="Copy message"
                       >
                         {copiedId === message.id ? (
-                          <Check size={16} className="text-green-500" />
+                          <>
+                            <Check size={14} className="text-green-500" />
+                            <span className="text-green-500">Copied!</span>
+                          </>
                         ) : (
-                          <Copy size={16} className="text-muted-foreground" />
+                          <>
+                            <Copy size={14} />
+                            <span>Copy</span>
+                          </>
                         )}
                       </button>
 
