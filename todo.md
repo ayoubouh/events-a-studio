@@ -145,3 +145,11 @@
 - [x] Make copy buttons always visible on chat messages
 - [x] Add visual feedback (Copy/Copied! text) for better UX
 - [x] Ensure all messages can be easily copied by users
+
+## GitHub & Vercel Deployment
+- [ ] Create GitHub repository for Events, A studio
+- [ ] Push project code to GitHub
+- [ ] Connect GitHub repository to Vercel
+- [ ] Configure environment variables in Vercel
+- [ ] Deploy website to Vercel
+- [ ] Test live Vercel deployment
